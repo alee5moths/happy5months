@@ -13,13 +13,13 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold mb-4 drop-shadow-sm">
               {" "}
               {/* Sombra más suave */}
-              {"Para mi amorcito, [Nombre de tu novia] ❤️"}
+              {"Para mi amorcito, Ale ❤️"}
             </h1>
             <p className="text-xl md:text-2xl mb-8">
               {"Cada día a tu lado es un regalo. Esta página es un pequeño reflejo de todo lo que significas para mí."}
             </p>
             <Image
-                src="/placeholder.svg?height=300&width=300"
+                src="/images-ale/nosotros/foto-portada.jpg"
                 alt="Foto de la pareja"
                 width={300}
                 height={300}
@@ -30,16 +30,14 @@ export default function Home() {
 
         {/* Sección de Nuestras Conversaciones Favoritas */}
         <section className="py-16 px-4 md:px-8 bg-white">
-          <h2 className="text-4xl font-bold text-center mb-12 text-custom-pink">
-            {"Nuestras Conversaciones Favoritas 💬"}
-          </h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-custom-pink">{"Nuestras Conversaciones 💬"}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="bg-white border-gray-100 shadow-sm">
               {" "}
               {/* Fondo blanco, borde sutil, sombra suave */}
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Image
-                    src="/placeholder.svg?height=200&width=350"
+                    src="/images-ale/chats/chat-1.jpg"
                     alt="Captura de chat 1"
                     width={350}
                     height={200}
@@ -53,7 +51,7 @@ export default function Home() {
             <Card className="bg-white border-gray-100 shadow-sm">
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Image
-                    src="/placeholder.svg?height=200&width=350"
+                    src="/images-ale/chats/chat-2.jpg"
                     alt="Captura de chat 2"
                     width={350}
                     height={200}
@@ -67,15 +65,13 @@ export default function Home() {
             <Card className="bg-white border-gray-100 shadow-sm">
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Image
-                    src="/placeholder.svg?height=200&width=350"
+                    src="/images-ale/chats/chat-3.jpg"
                     alt="Captura de chat 3"
                     width={350}
                     height={200}
                     className="rounded-lg mb-4 object-cover"
                 />
-                <p className="text-lg font-medium text-gray-800">
-                  {"Esa conversación profunda que tuvimos, me hizo amarte aún más."}
-                </p>
+                <p className="text-lg font-medium text-gray-800">{"Ese día comenzo nuestra historia de amor."}</p>
               </CardContent>
             </Card>
           </div>
@@ -85,42 +81,44 @@ export default function Home() {
         <section className="py-16 px-4 md:px-8 bg-gray-50">
           {" "}
           {/* Fondo muy sutil */}
-          <h2 className="text-4xl font-bold text-center mb-12 text-custom-pink">{"Momentos Inolvidables Juntos 📸"}</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-custom-pink">{"Momentos Juntos 📸"}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="bg-white border-gray-100 shadow-sm">
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Image
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/images-ale/nosotros/nosotros.jpg"
                     alt="Foto de pareja 1"
                     width={400}
                     height={300}
                     className="rounded-lg mb-4 object-cover"
                 />
-                <p className="text-lg font-medium text-gray-800">{"Ese día en el parque, riendo sin parar."}</p>
+                <p className="text-lg font-medium text-gray-800">
+                  {"Los besos más bonitos no siempre se dan en los labios."}
+                </p>
               </CardContent>
             </Card>
             <Card className="bg-white border-gray-100 shadow-sm">
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Image
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/images-ale/nosotros/nosotros-1.jpg"
                     alt="Foto de pareja 2"
                     width={400}
                     height={300}
                     className="rounded-lg mb-4 object-cover"
                 />
-                <p className="text-lg font-medium text-gray-800">{"Nuestra primera cita, el inicio de todo."}</p>
+                <p className="text-lg font-medium text-gray-800">{"Te besare siempre donde el cielo besa el mar"}</p>
               </CardContent>
             </Card>
             <Card className="bg-white border-gray-100 shadow-sm">
               <CardContent className="p-6 flex flex-col items-center text-center">
                 <Image
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/images-ale/nosotros/nosotros-2.jpg"
                     alt="Foto de pareja 3"
                     width={400}
                     height={300}
                     className="rounded-lg mb-4 object-cover"
                 />
-                <p className="text-lg font-medium text-gray-800">{"Cada aventura contigo es la mejor."}</p>
+                <p className="text-lg font-medium text-gray-800">{"J & A, dos letras una historia."}</p>
               </CardContent>
             </Card>
           </div>
